@@ -1,0 +1,14 @@
+{
+    "projectName": "yundun",
+    "gitRepo": "git@gitlab.alibaba-inc.com:aliyun/yundun.git",
+    "branchName":"master",
+    "appFolder": "app",
+    "activeFolder": ".tmp",
+    "buildFolder": "build",
+    "tmpFolder": ".tmp",
+    "mockupSrcFolder": "tests/data",
+    "mockupTargetFolder": ".tmp/",
+    "appPort": 3000,
+    "hostName": "0.0.0.0",
+    "liveReloadPort": 35729
+}

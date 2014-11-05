@@ -1,0 +1,20 @@
+define([
+  'angular',
+  'ui.router',
+   './controllers/_base',
+  './states/_base',
+  './directives/_base',
+  './filters/_base',
+  './services/_base',
+  './app-tpl'
+],function(){
+  return angular.module('<%=project_name%>App',[
+    'ui.router',
+    'app.tpl',
+    'app.<%=project_name%>Controllers',
+    'app.<%=project_name%>States',
+    'app.<%=project_name%>Directives',
+    'app.<%=project_name%>Filters',
+    'app.<%=project_name%>Services'
+  ]);
+});
