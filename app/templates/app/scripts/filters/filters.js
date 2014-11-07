@@ -1,3 +1,3 @@
 define(['angular'], function (angular) {
-  return angular.module(['app.<%= project_name %>Filters'], []);
+  return angular.module('app.<%= project_name %>Filters', []);
 });
