@@ -5,16 +5,6 @@
 
 ## Getting Started
 
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
-
 ```bash
 npm install -g yo
 ```
@@ -35,11 +25,82 @@ Finally, initiate the generator:
 yo webbp
 ```
 
-### Getting To Know Yeoman
+## 子命令
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+* 单步生成controller
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+```js
+yo webbp:controllers detail.about.contact
+```
+亮点：可以嵌套，此命令会生成如下文件
+```bash
+|controllers
+   |detail
+      |about.js
+      |contact.js
+    detail.js
+```
+另外detail.js中会自动加载about.js及contact.js
+
+* 单步生成views
+
+```js
+yo webbp:views detail.about.contact
+```
+亮点：可以嵌套，此命令会生成如下文件
+```bash
+|views
+   |detail
+      |about.html
+      |contact.html
+    detail.html
+```
+* 单步生成routes
+
+```js
+yo webbp:routess detail.about.contact
+```
+亮点：可以嵌套，此命令会生成如下文件
+```bash
+|states
+  |detail.js
+```
+其内容是：
+```js
+define(['./states', '../cons/simpleCons'],
+    function (stateModule, simpleCons) {
+      stateModule.config(
+          ['$stateProvider', '$urlRouterProvider',
+            function ($stateProvider, $urlRouterProvider) {
+              $stateProvider.state("detail", {
+                abstract: true,
+                resolve: {
+                  instanceBasicPromise: [ '$stateParams', function( $stateParams){
+
+                  }]
+                },
+                url: "/detail",
+                controller: 'detailController',
+                templateUrl: simpleCons.VIEW_PATH + 'detail.html'
+              })
+              
+                .state("detail.about", {
+                  url: "/about",
+                  views: {
+                    detail: {
+                      templateUrl: simpleCons.VIEW_PATH + 'detail/about.html',
+                      controller: 'detail.aboutController'
+                    }
+                  }
+                })  
+              
+            }
+          ]);
+    })
+```
+亮点：通过运行此命令，会自动生成 routes(用的是ui-router，目录是states目录)，view，controller。有没有觉得很爽的感觉。
+
+
 
 
 ## License
