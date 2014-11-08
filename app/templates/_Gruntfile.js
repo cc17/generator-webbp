@@ -85,6 +85,7 @@ module.exports = function (grunt) {
           dest: 'app/scripts/app-tpl.js'
         }
       },
+
       watch: {
         options: {
           livereload: true
@@ -98,10 +99,10 @@ module.exports = function (grunt) {
             'app/style/**/*.{css,png,jpg,jpeg,webp,gif,map,woff,ttf,svg}'],
           tasks: ['copy:debug']
         },
-        // compass: {
-        //   files: ['app/**/*.{scss,sass}'],
-        //   tasks: ['compass:debug']
-        // },
+        compass: {
+          files: ['app/**/*.{scss,sass}'],
+          tasks: ['compass:dev']
+        },
         // jade: {
         //   files: ['app/**/*.jade'],
         //   tasks: ['jade:debug']
@@ -118,6 +119,21 @@ module.exports = function (grunt) {
           files: [ 'app/scripts/*/views/**/*.html',
             'app/scripts/*/partials/**/*.html'],
           tasks: ['html2js:compileTpl']
+        }
+      },
+      compass: {                  // Task
+        dist: {                   // Target
+          options: {              // Target options
+            sassDir: 'app/styles/',
+            cssDir: 'build/',
+            environment: 'production'
+          }
+        },
+        dev: {                    // Another target
+          options: {
+            sassDir: 'app/',
+            cssDir: '.tmp/'
+          }
         }
       },
       requirejs: {
@@ -152,12 +168,14 @@ module.exports = function (grunt) {
       'connect:dev',
       'html2js:compileTpl',
       'copy:debug',
+      'compass:dev',
       //'requirejs:debug',
       'open:dev',
       'watch'
     ]);
     grunt.registerTask('build',[
       'html2js:compileTpl',
+      'compass:dev',
       'copy:dist',
       'requirejs:dist',
       'connect:dist:keepalive'
