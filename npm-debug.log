@@ -19,24 +19,24 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /Users/chengchi/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz',
+10 verbose tar pack [ '/var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz',
 10 verbose tar pack   '.' ]
-11 verbose tarball /var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz
+11 verbose tarball /var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz
 12 verbose folder .
-13 info prepublish generator-webbp@0.0.0
+13 info prepublish generator-webbp@0.0.1
 14 silly lockFile 1f1177db-tar tar://.
 15 verbose lock tar://. /Users/chengchi/.npm/1f1177db-tar.lock
-16 silly lockFile a3372094-4287-0-04763252637349069-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz
-17 verbose lock tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz /Users/chengchi/.npm/a3372094-4287-0-04763252637349069-tmp-tgz.lock
+16 silly lockFile 1f0580cf-6906-0-10940391407348216-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz
+17 verbose lock tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz /Users/chengchi/.npm/1f0580cf-6906-0-10940391407348216-tmp-tgz.lock
 18 silly lockFile 1f1177db-tar tar://.
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile a3372094-4287-0-04763252637349069-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz
-21 silly lockFile a3372094-4287-0-04763252637349069-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz
-22 verbose tar unpack /var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz
-23 silly lockFile fdfb84c8-pm-generator-webbp-0-0-0-package tar:///Users/chengchi/.npm/generator-webbp/0.0.0/package
-24 verbose lock tar:///Users/chengchi/.npm/generator-webbp/0.0.0/package /Users/chengchi/.npm/fdfb84c8-pm-generator-webbp-0-0-0-package.lock
-25 silly lockFile a3372094-4287-0-04763252637349069-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz
-26 verbose lock tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz /Users/chengchi/.npm/a3372094-4287-0-04763252637349069-tmp-tgz.lock
+20 silly lockFile 1f0580cf-6906-0-10940391407348216-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz
+21 silly lockFile 1f0580cf-6906-0-10940391407348216-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz
+22 verbose tar unpack /var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz
+23 silly lockFile eb5e1259-pm-generator-webbp-0-0-1-package tar:///Users/chengchi/.npm/generator-webbp/0.0.1/package
+24 verbose lock tar:///Users/chengchi/.npm/generator-webbp/0.0.1/package /Users/chengchi/.npm/eb5e1259-pm-generator-webbp-0-0-1-package.lock
+25 silly lockFile 1f0580cf-6906-0-10940391407348216-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz
+26 verbose lock tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz /Users/chengchi/.npm/1f0580cf-6906-0-10940391407348216-tmp-tgz.lock
 27 silly gunzTarPerm modes [ '755', '644' ]
 28 silly gunzTarPerm extractEntry package.json
 29 silly gunzTarPerm extractEntry README.md
@@ -88,14 +88,14 @@
 75 silly gunzTarPerm extractEntry views/index.js
 76 silly gunzTarPerm extractEntry views/templates/_subView.js
 77 silly gunzTarPerm extractEntry views/templates/_view.js
-78 silly lockFile fdfb84c8-pm-generator-webbp-0-0-0-package tar:///Users/chengchi/.npm/generator-webbp/0.0.0/package
-79 silly lockFile fdfb84c8-pm-generator-webbp-0-0-0-package tar:///Users/chengchi/.npm/generator-webbp/0.0.0/package
-80 silly lockFile a3372094-4287-0-04763252637349069-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz
-81 silly lockFile a3372094-4287-0-04763252637349069-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-72207-K4jxm9_u/1415465924287-0.04763252637349069/tmp.tgz
+78 silly lockFile eb5e1259-pm-generator-webbp-0-0-1-package tar:///Users/chengchi/.npm/generator-webbp/0.0.1/package
+79 silly lockFile eb5e1259-pm-generator-webbp-0-0-1-package tar:///Users/chengchi/.npm/generator-webbp/0.0.1/package
+80 silly lockFile 1f0580cf-6906-0-10940391407348216-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz
+81 silly lockFile 1f0580cf-6906-0-10940391407348216-tmp-tgz tar:///var/folders/8h/0glsdm196c1g0hsss40d7gsr0000gn/T/npm-7578-Oa3KrlAJ/1416036816906-0.10940391407348216/tmp.tgz
 82 silly lockFile 3a52ce78- .
 83 silly lockFile 3a52ce78- .
 84 silly publish { name: 'generator-webbp',
-84 silly publish   version: '0.0.0',
+84 silly publish   version: '0.0.1',
 84 silly publish   description: 'Yeoman generator',
 84 silly publish   license: 'MIT',
 84 silly publish   main: 'app/index.js',
@@ -118,32 +118,32 @@
 84 silly publish   readmeFilename: 'README.md',
 84 silly publish   bugs: { url: 'https://github.com/cc17/generator-webbp/issues' },
 84 silly publish   homepage: 'https://github.com/cc17/generator-webbp',
-84 silly publish   _id: 'generator-webbp@0.0.0',
-84 silly publish   _shasum: 'd449a6dc3268168fc02d550d87298f5655adedca',
+84 silly publish   _id: 'generator-webbp@0.0.1',
+84 silly publish   _shasum: '28a7c53d3efa4995874ec4c53a30b7802600a072',
 84 silly publish   _from: '.' }
 85 verbose url raw generator-webbp
 86 verbose url resolving [ 'https://registry.npmjs.org/', './generator-webbp' ]
 87 verbose url resolved https://registry.npmjs.org/generator-webbp
-88 info trying registry request attempt 1 at 00:58:44
+88 info trying registry request attempt 1 at 15:33:37
 89 http PUT https://registry.npmjs.org/generator-webbp
 90 http 403 https://registry.npmjs.org/generator-webbp
-91 verbose headers { date: 'Sat, 08 Nov 2014 16:58:45 GMT',
+91 verbose headers { date: 'Sat, 15 Nov 2014 07:33:39 GMT',
 91 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 91 verbose headers   'content-type': 'application/json',
 91 verbose headers   'cache-control': 'max-age=60',
 91 verbose headers   'content-length': '5784',
 91 verbose headers   'accept-ranges': 'bytes',
 91 verbose headers   via: '1.1 varnish',
-91 verbose headers   'x-served-by': 'cache-ty67-TYO',
+91 verbose headers   'x-served-by': 'cache-ty68-TYO',
 91 verbose headers   'x-cache': 'MISS',
 91 verbose headers   'x-cache-hits': '0',
-91 verbose headers   'x-timer': 'S1415465925.216987,VS0,VE624',
+91 verbose headers   'x-timer': 'S1416036818.472609,VS0,VE568',
 91 verbose headers   'keep-alive': 'timeout=10, max=50',
 91 verbose headers   connection: 'Keep-Alive' }
 92 error publish Failed PUT 403
-93 error Error: forbidden cannot modify pre-existing version: 0.0.0
-93 error old={"name":"generator-webbp","version":"0.0.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/cc17/generator-webbp"},"author":{"name":"chengchi","email":"dengxiaoming1217@gmail.com","url":"https://github.com/cc17"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app","controllers","routes","views"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"^0.17.0","chalk":"^0.5.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"bugs":{"url":"https://github.com/cc17/generator-webbp/issues"},"homepage":"https://github.com/cc17/generator-webbp","_id":"generator-webbp@0.0.0","_shasum":"392445398fc1598df11894a16246a3df4bfdc64c","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"cc17","email":"dengxiaoming1217@gmail.com"},"maintainers":[{"name":"cc17","email":"dengxiaoming1217@gmail.com"}],"dist":{"shasum":"392445398fc1598df11894a16246a3df4bfdc64c","tarball":"http://registry.npmjs.org/generator-webbp/-/generator-webbp-0.0.0.tgz"}}
-93 error new={"name":"generator-webbp","version":"0.0.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/cc17/generator-webbp"},"author":{"name":"chengchi","email":"dengxiaoming1217@gmail.com","url":"https://github.com/cc17"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app","controllers","routes","views"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"^0.17.0","chalk":"^0.5.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"# generator-webbp [![Build Status](https://secure.travis-ci.org/cc17/generator-webbp.png?branch=master)](https://travis-ci.org/cc17/generator-webbp)\u000a\u000a> [Yeoman](http://yeoman.io) generator\u000a\u000a\u000a## Getting Started\u000a\u000a```bash\u000anpm install -g yo\u000a```\u000a\u000a### Yeoman Generators\u000a\u000aYeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\u000a\u000aTo install generator-webbp from npm, run:\u000a\u000a```bash\u000anpm install -g generator-webbp\u000a```\u000a\u000aFinally, initiate the generator:\u000a\u000a```bash\u000ayo webbp\u000a```\u000a\u000a## 子命令\u000a\u000a* 单步生成controller\u000a\u000a```js\u000ayo webbp:controllers detail.about.contact\u000a```\u000a亮点：可以嵌套，此命令会生成如下文件\u000a```bash\u000a|controllers\u000a   |detail\u000a      |about.js\u000a      |contact.js\u000a    detail.js\u000a```\u000a另外detail.js中会自动加载about.js及contact.js\u000a\u000a* 单步生成views\u000a\u000a```js\u000ayo webbp:views detail.about.contact\u000a```\u000a亮点：可以嵌套，此命令会生成如下文件\u000a```bash\u000a|views\u000a   |detail\u000a      |about.html\u000a      |contact.html\u000a    detail.html\u000a```\u000a* 单步生成routes\u000a\u000a```js\u000ayo webbp:routess detail.about.contact\u000a```\u000a亮点：可以嵌套，此命令会生成如下文件\u000a```bash\u000a|states\u000a  |detail.js\u000a```\u000a其内容是：\u000a```js\u000adefine(['./states', '../cons/simpleCons'],\u000a    function (stateModule, simpleCons) {\u000a      stateModule.config(\u000a          ['$stateProvider', '$urlRouterProvider',\u000a            function ($stateProvider, $urlRouterProvider) {\u000a              $stateProvider.state(\"detail\", {\u000a                abstract: true,\u000a                resolve: {\u000a                  instanceBasicPromise: [ '$stateParams', function( $stateParams){\u000a\u000a                  }]\u000a                },\u000a                url: \"/detail\",\u000a                controller: 'detailController',\u000a                templateUrl: simpleCons.VIEW_PATH + 'detail.html'\u000a              })\u000a              \u000a                .state(\"detail.about\", {\u000a                  url: \"/about\",\u000a                  views: {\u000a                    detail: {\u000a                      templateUrl: simpleCons.VIEW_PATH + 'detail/about.html',\u000a                      controller: 'detail.aboutController'\u000a                    }\u000a                  }\u000a                })  \u000a              \u000a            }\u000a          ]);\u000a    })\u000a```\u000a亮点：通过运行此命令，会自动生成 routes(用的是ui-router，目录是states目录)，view，controller。有没有觉得很爽的感觉。\u000a\u000a\u000a\u000a\u000a## License\u000a\u000aMIT\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/cc17/generator-webbp/issues"},"homepage":"https://github.com/cc17/generator-webbp","_id":"generator-webbp@0.0.0","_shasum":"d449a6dc3268168fc02d550d87298f5655adedca","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"cc17","email":"dengxiaoming1217@gmail.com"},"maintainers":[{"name":"cc17","email":"dengxiaoming1217@gmail.com"}],"dist":{"shasum":"d449a6dc3268168fc02d550d87298f5655adedca","tarball":"http://registry.npmjs.org/generator-webbp/-/generator-webbp-0.0.0.tgz"}}: generator-webbp
+93 error Error: forbidden cannot modify pre-existing version: 0.0.1
+93 error old={"name":"generator-webbp","version":"0.0.1","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/cc17/generator-webbp"},"author":{"name":"chengchi","email":"dengxiaoming1217@gmail.com","url":"https://github.com/cc17"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app","controllers","routes","views"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"^0.17.0","chalk":"^0.5.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"bugs":{"url":"https://github.com/cc17/generator-webbp/issues"},"homepage":"https://github.com/cc17/generator-webbp","_id":"generator-webbp@0.0.1","_shasum":"28a7c53d3efa4995874ec4c53a30b7802600a072","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"cc17","email":"dengxiaoming1217@gmail.com"},"maintainers":[{"name":"cc17","email":"dengxiaoming1217@gmail.com"}],"dist":{"shasum":"28a7c53d3efa4995874ec4c53a30b7802600a072","tarball":"http://registry.npmjs.org/generator-webbp/-/generator-webbp-0.0.1.tgz"}}
+93 error new={"name":"generator-webbp","version":"0.0.1","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/cc17/generator-webbp"},"author":{"name":"chengchi","email":"dengxiaoming1217@gmail.com","url":"https://github.com/cc17"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app","controllers","routes","views"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"^0.17.0","chalk":"^0.5.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"# generator-webbp [![Build Status](https://secure.travis-ci.org/cc17/generator-webbp.png?branch=master)](https://travis-ci.org/cc17/generator-webbp)\u000a\u000a> [Yeoman](http://yeoman.io) generator\u000a\u000a\u000a## Getting Started\u000a\u000a```bash\u000anpm install -g yo\u000a```\u000a\u000a### Yeoman Generators\u000a\u000aYeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\u000a\u000aTo install generator-webbp from npm, run:\u000a\u000a```bash\u000anpm install -g generator-webbp\u000a```\u000a\u000aFinally, initiate the generator:\u000a\u000a```bash\u000ayo webbp\u000a```\u000a\u000a## 子命令\u000a\u000a* 单步生成controller\u000a\u000a```js\u000ayo webbp:controllers detail.about.contact\u000a```\u000a亮点：可以嵌套，此命令会生成如下文件\u000a```bash\u000a|controllers\u000a   |detail\u000a      |about.js\u000a      |contact.js\u000a    detail.js\u000a```\u000a另外detail.js中会自动加载about.js及contact.js\u000a\u000a* 单步生成views\u000a\u000a```js\u000ayo webbp:views detail.about.contact\u000a```\u000a亮点：可以嵌套，此命令会生成如下文件\u000a```bash\u000a|views\u000a   |detail\u000a      |about.html\u000a      |contact.html\u000a    detail.html\u000a```\u000a* 单步生成routes\u000a\u000a```js\u000ayo webbp:routess detail.about.contact\u000a```\u000a亮点：可以嵌套，此命令会生成如下文件\u000a```bash\u000a|states\u000a  |detail.js\u000a```\u000a其内容是：\u000a```js\u000adefine(['./states', '../cons/simpleCons'],\u000a    function (stateModule, simpleCons) {\u000a      stateModule.config(\u000a          ['$stateProvider', '$urlRouterProvider',\u000a            function ($stateProvider, $urlRouterProvider) {\u000a              $stateProvider.state(\"detail\", {\u000a                abstract: true,\u000a                resolve: {\u000a                  instanceBasicPromise: [ '$stateParams', function( $stateParams){\u000a\u000a                  }]\u000a                },\u000a                url: \"/detail\",\u000a                controller: 'detailController',\u000a                templateUrl: simpleCons.VIEW_PATH + 'detail.html'\u000a              })\u000a              \u000a                .state(\"detail.about\", {\u000a                  url: \"/about\",\u000a                  views: {\u000a                    detail: {\u000a                      templateUrl: simpleCons.VIEW_PATH + 'detail/about.html',\u000a                      controller: 'detail.aboutController'\u000a                    }\u000a                  }\u000a                })  \u000a              \u000a            }\u000a          ]);\u000a    })\u000a```\u000a亮点：通过运行此命令，会自动生成 routes(用的是ui-router，目录是states目录)，view，controller。有没有觉得很爽的感觉。\u000a\u000a\u000a\u000a\u000a## License\u000a\u000aMIT\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/cc17/generator-webbp/issues"},"homepage":"https://github.com/cc17/generator-webbp","_id":"generator-webbp@0.0.1","_shasum":"28a7c53d3efa4995874ec4c53a30b7802600a072","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"cc17","email":"dengxiaoming1217@gmail.com"},"maintainers":[{"name":"cc17","email":"dengxiaoming1217@gmail.com"}],"dist":{"shasum":"28a7c53d3efa4995874ec4c53a30b7802600a072","tarball":"http://registry.npmjs.org/generator-webbp/-/generator-webbp-0.0.1.tgz"}}: generator-webbp
 93 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
 93 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
 93 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
@@ -157,7 +157,7 @@
 94 error If you need help, you may report this *entire* log,
 94 error including the npm and node versions, at:
 94 error     <http://github.com/npm/npm/issues>
-95 error System Darwin 13.3.0
+95 error System Darwin 13.4.0
 96 error command "node" "/usr/local/bin/npm" "publish"
 97 error cwd /Users/chengchi/Dev/generator-webbp
 98 error node -v v0.10.28
